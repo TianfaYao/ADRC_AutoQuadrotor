@@ -1,0 +1,9 @@
+.\objects\fal.o: 3.math\adrc\codegen\lib\fal\fal.c
+.\objects\fal.o: 3.math\adrc\codegen\lib\fal\rt_nonfinite.h
+.\objects\fal.o: F:\keill5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\fal.o: 3.math\adrc\codegen\lib\fal\rtwtypes.h
+.\objects\fal.o: 3.math\adrc\codegen\lib\fal\fal.h
+.\objects\fal.o: F:\keill5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\fal.o: F:\keill5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\fal.o: 3.math\adrc\codegen\lib\fal\fal_types.h
+.\objects\fal.o: 3.math\adrc\codegen\lib\fal\fhan.h

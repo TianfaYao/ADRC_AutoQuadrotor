@@ -1,0 +1,7 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I.\1.code\dev -I.\2.prject\F407LIB -I.\2.prject\F407LIB\inc -I.\1.code\uav -I.\1.code -I.\3.math -I.\3.math\adrc\codegen\lib\fal -I.\1.code\navigation -I.\1.code\navigation\height -I.\1.code\navigation\height\codegen\lib\nav_h_ekf -I.\1.code\attitude -I.\1.code\attitude\ekf -I.\1.code\attitude\ekf\codegen -I.\2.prject\FATFS\src -I.\3.math\adrc -I.\1.code\control -I.\1.code\px4\ekf_att_pos_estimator -I.\1.code\px4\geo --CPP
+-I C:\Users\Administrator\Desktop\ekf_adrc\ADRC_AutoQute_V2\AutoQuadrotor\RTE
+-I C:\Users\Administrator\Desktop\ekf_adrc\ADRC_AutoQute_V2\AutoQuadrotor\RTE\Device\STM32F407VG
+-I F:\keill5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I F:\keill5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS
+-o .\objects\rt_nonfinite_1.o --omf_browse .\objects\rt_nonfinite_1.crf --depend .\objects\rt_nonfinite_1.d "3.math\adrc\codegen\lib\fal\rt_nonfinite.c"
